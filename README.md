@@ -1,0 +1,1 @@
+custom eslintrc  for projects
