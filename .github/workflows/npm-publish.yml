@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/JOURNEY-CP
+      - run: echo '//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}' > .npmrc
       - run: npm install
       - run: npm publish
         env:
