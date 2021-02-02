@@ -1,5 +1,7 @@
 name: Npm Publish
 on:
+  push:
+    [main]
  release:
  types: [created]
 jobs:
