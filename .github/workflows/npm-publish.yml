@@ -17,9 +17,7 @@ jobs:
           node-version: 10
           registry-url: 'https://registry.npmjs.org'
       - run: npm install --registry https://registry.npmjs.org
-      - run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}
-      registry=https://registry.npmjs.org/
-      always-auth=true" >.npmrc
+      - run: echo -e "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}\nregistry=https://registry.npmjs.org/\nalways-auth=true" >.npmrc
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
