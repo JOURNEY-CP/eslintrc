@@ -1,9 +1,6 @@
 name: Npm Publish
-on:
-  push:
-    [main]
- release:
- types: [created]
+on: push
+
 jobs:
   build:
    runs-on: ubuntu-latest
