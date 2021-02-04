@@ -1,8 +1,8 @@
 {
   "name": "@journey-cp/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "eslintrc shared file from journey",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {
     "test": "echo \"hi\" "
   },
