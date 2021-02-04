@@ -21,7 +21,7 @@
     "url": "https://github.com/JOURNEY-CP/eslintrc/issues"
   },
   "homepage": "https://github.com/JOURNEY-CP/eslintrc#readme",
-  "dependencies": {
+  "peerDependencies": {
     "babel-eslint": "10.1.0",
     "css-loader": "^2.1.1",
     "eslint": "^6.6.0",
