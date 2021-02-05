@@ -21,8 +21,6 @@
     "plugins": ["react", "prettier"],
     "rules": {
         "prettier/prettier": [2],
-        "react/jsx-indent": 2,
-        "react/jsx-indent-props": 0,
         "react/prop-types": 0,
         "react/no-did-update-set-state": 1,
         "react/no-unescaped-entities": 1,
